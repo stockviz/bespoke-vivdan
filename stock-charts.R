@@ -3,7 +3,7 @@
 #change 'lookbackDays' to specify number of historical business days to plot
 #add technical charts to the TA list. See quantmod documentation for possibilities
 
-symbols<-c('HDFC', 'HDFCBANK')
+symbols<-c('HDFC', 'HDFCBANK', 'TATAELXSI')
 lookbackDays<-220
 
 library('RODBC')
@@ -12,7 +12,7 @@ library('PerformanceAnalytics')
 library('extrafont')
 
 source("d:/stockviz/r/config.r")
-reportPath<-"D:/StockViz/public/bespoke/vivdan/reports"
+reportPath<-"D:/StockViz/public/bespoke-vivdan/reports"
 
 lcon <- odbcDriverConnect(sprintf("Driver={SQL Server};Server=%s;Database=%s;Uid=%s;Pwd=%s;", ldbserver, ldbname, ldbuser, ldbpassword), case = "nochange", believeNRows = TRUE)
 
