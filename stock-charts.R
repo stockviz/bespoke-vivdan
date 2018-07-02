@@ -12,7 +12,7 @@ library('PerformanceAnalytics')
 library('extrafont')
 
 source("d:/stockviz/r/config.r")
-reportPath<-"D:/StockViz/public/bespoke-vivdan/reports"
+reportPath<-"D:/StockViz/public/bespoke/bespoke-vivdan/reports"
 
 lcon <- odbcDriverConnect(sprintf("Driver={SQL Server};Server=%s;Database=%s;Uid=%s;Pwd=%s;", ldbserver, ldbname, ldbuser, ldbpassword), case = "nochange", believeNRows = TRUE)
 
