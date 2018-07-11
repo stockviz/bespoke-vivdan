@@ -3,7 +3,7 @@
 #change 'lookbackDays' to specify number of historical business days to plot
 #add technical charts to the TA list. See quantmod documentation for possibilities
 
-symbols<-c('HDFC', 'HDFCBANK', 'TATAELXSI', 'BHARATFIN','NESTLEIND')
+symbols<-c('HDFC', 'HDFCBANK', 'TATAELXSI', 'BHARATFIN','NESTLEIND','RELIANCE','MARICO','WIPRO','TCS','TATASTEEL','PIDILITIND')
 lookbackDays<-220
 
 library('RODBC')
